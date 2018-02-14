@@ -1,0 +1,428 @@
+/*.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.navbar-nav > li {
+  top: -2px;
+}
+.navbar-nav > li > a:hover {
+  border-top: 2px solid #F68220;
+}*/
+/*.carousel img{
+  width:100%;
+  min-width:100%;
+  height: auto;
+
+}*/
+body{
+  background-color: #bcbabe !important;
+  padding-top: 65px;
+  margin: 0;
+}
+video {
+    width: 30%;
+    height: 30%;
+
+}
+
+a {
+  
+  text-decoration: none !important;
+}
+a:hover,
+a:focus {
+  color:  #00BFF3 !important;
+  text-decoration: none !important;
+}
+h1{
+  text-align: center;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif !important;
+
+}
+h2{
+
+  text-align: center;
+}
+h3{
+
+  text-align: center;
+
+
+}
+h4{
+
+  text-align: center;
+}
+h5{
+
+  text-align: center;
+}
+
+th{
+  font-size: 18px;
+}
+td{
+  font-size: 15px;
+  color:#F4D00C;
+}
+ 
+.navbar{
+  border-radius: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	letter-spacing: 5px;
+  background-color: rgba(2,28,30, 0.8);
+
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+
+}
+
+.navbar-nav  li a:hover {
+		color: #00BFF3 !important;
+    background-color: #fff;
+    
+}
+
+
+.navbar-header a.navbar-brand {
+	color: #00BFF3;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	margin-bottom: 0;
+}
+.navbar-header a.navbar-brand:hover {
+	color: #00BFF3;
+	text-decoration:none;
+}
+
+
+
+.frame {
+		display: block;
+		width: 100vw;
+		height: 100vh;
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
+		border: 0 none;
+		box-sizing: border-box;
+
+
+	}
+  
+  
+  .panel{
+    margin: 10px;
+  }
+  .panel-heading{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+    background-color: #bcbabe;
+
+
+  }
+  .panel-body{
+    text-align: center;
+    letter-spacing: 2px;
+    color:#021c1e;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+  }
+  .panel-body a{
+    color:#ff420e;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+
+    font-family: 'Playfair Display', serif;
+  }
+  .panel-body img{
+    max-width:100%;
+    max-height:100%;
+  }
+  .panel-footer a{
+    color:#ff420e;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+
+    font-family: 'Playfair Display', serif;
+
+  }
+
+
+  .timeLineText{
+    font-family: "Times New Roman", Times, serif;
+    color:#F4D00C;
+  }
+  .timeLineTextHeading{
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #examples{
+    background-color:  #021c1e;
+    color:   #FFF;
+    word-wrap: break-word;
+    letter-spacing: 3px;
+  }
+  #examples h3{
+    font-family: 'PT Serif', serif;
+    color:#fff;
+    margin-top: 30px;
+    font-size: 40px;
+    padding-top: 65px;
+  }
+  #examples p{
+    font-size: 20px;
+    font-family: 'Titillium Web', serif;
+    padding-bottom: 40px;
+    text-align: center;
+   
+    
+  }
+  #examples a{
+    color:#ff420e;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+
+    font-family: 'Playfair Display', serif;
+  }
+
+  #skills{
+    background-color:  #4b7447;;
+    color:   #FFF;
+    
+  }
+  #skills h3{
+     font-family: 'PT Serif', serif;
+    color:#fff;
+    margin-bottom: 30px;
+    font-size: 40px;
+    padding-top: 40px;
+
+  }
+  #skills p{
+    font-size: 25px;
+    font-family: 'Titillium Web', serif;
+    padding-bottom: 40px;
+  }
+ 
+  #journeysofar{
+    background-color: #324851;
+    padding-bottom: 50px;
+  }
+  #journeysofar h2{
+    font-family: 'PT Serif', serif;
+    color:#fff;
+    margin-bottom: 40px;
+    font-size: 40px;
+    padding-top: 40px;
+  }
+  #journeysofar h3{
+    font-family: 'PT Serif', serif;
+    color:#fff;
+    padding-bottom:10px;
+    font-size: 25px;
+    
+  }
+  
+  #journeysofar p{
+    font-size: 15px;
+    font-family: 'Titillium Web', serif;
+    padding-bottom: 20px;
+    color:#fff;
+  }
+  #myTable{
+    margin-bottom: 20px;
+  }
+  #about{
+    background-color:   #bcbabe;
+    margin-top: -20px;
+    padding: 0;
+    color:#021c1e;
+
+  }
+  #about h3{
+    font-family: 'PT Serif', serif;
+    color:#021c1e;
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+  #about p{
+    text-align: center;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Titillium Web', serif;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-style: italic;
+
+  }
+  #contact-info{
+    background-color:   #021c1e;
+    color:#FFF;
+  }
+  #contact-info a{
+    color:#ff420e;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+
+    font-family: 'Playfair Display', serif;
+  }
+  #myImage{
+    margin-top: 600px;
+
+  }
+  #footerTable{
+    text-align: right;
+    font-size: 20px;
+  }
+  #topLinks{
+    margin-bottom: 20px;
+  }
+  #inverseNav{
+    background-color: #fff;
+  }
+  #websiteHeader{
+    background-color: #34675c;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+  }
+
+
+  .timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #0093D1;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #004C70;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #FFF transparent transparent;
+}
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #FFF;
+}
+.timeline ul li::after {
+  background: #fff;
+  transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #F45B69;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px,0,0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px,0,0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px; /*250+45-6*/
+  }
+  #myImage{
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+  }
+  #myImage{
+    display: none;
+  }
+}
+
+
+  /* The actual timeline (the vertical ruler) */
+
+
+  /* Carousel base class */
